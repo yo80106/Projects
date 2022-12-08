@@ -1,0 +1,11 @@
+﻿  Player.cpp
+c:\users\chunyuchen\documents\visual studio 2015\projects\tic-tac-toe-2\tic-tac-toe-2\player.cpp(33): error C2662: 'void Board::ReceiveMove(char,int)': cannot convert 'this' pointer from 'const Board' to 'Board &'
+  c:\users\chunyuchen\documents\visual studio 2015\projects\tic-tac-toe-2\tic-tac-toe-2\player.cpp(33): note: Conversion loses qualifiers
+  Generating Code...
+  Compiling...
+  Game.cpp
+c:\users\chunyuchen\documents\visual studio 2015\projects\tic-tac-toe-2\tic-tac-toe-2\game.h(8): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\chunyuchen\documents\visual studio 2015\projects\tic-tac-toe-2\tic-tac-toe-2\game.h(9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Main.cpp
