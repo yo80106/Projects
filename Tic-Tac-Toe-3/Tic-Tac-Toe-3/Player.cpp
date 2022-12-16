@@ -15,10 +15,6 @@ Player::Player()
 	current = (current + 1) % NUM_PIECES;
 }
 
-Player::~Player()
-{
-}
-
 char Player::GetPiece() const
 {
 	return m_Piece;

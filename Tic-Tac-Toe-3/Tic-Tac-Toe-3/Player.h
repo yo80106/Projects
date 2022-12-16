@@ -13,7 +13,7 @@ class Player
 {
 public:
 	Player();
-	virtual ~Player();
+	virtual ~Player() = default;
 	char GetPiece() const;
 	char GetOpponentPiece() const;
 	// pure virtual function
