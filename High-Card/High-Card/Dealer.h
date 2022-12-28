@@ -21,4 +21,22 @@ public:
 	template<typename T>
 	void Deal(typename vector<T>& players, int numCardsEach = 1);
 };
+
+// function template definition
+template<typename T>
+void Dealer::Deal(vector<T>& players, int numCardsEach)
+{
+	if (m_Cards.size() < players.size() * numCardsEach)
+	{
+		throw NotEnoughCards(m_Name, static_cast<int>(m_Cards.size()));
+	}
+	for (int i = 0; i < numCardsEach; i++)
+	{
+		typename vector<T>::iterator iter;
+		for (iter = players.begin(); iter != players.end(); iter++)
+		{
+			TransferCard(*iter);
+		}
+	}
+}
 #endif
